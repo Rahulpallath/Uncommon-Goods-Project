@@ -1,0 +1,15 @@
+<div class="product-card">
+  <div class="product-image">
+    <img
+      [src]="showAltImage ? product.alt_image : product.main_image"
+      [alt]="product.title"
+      loading="lazy"
+      (mouseenter)="showAltImage = true"
+      (mouseleave)="showAltImage = false">
+  </div>
+
+  <div class="product-info">
+    <h3 class="product-title">{{ product.title }}</h3>
+    <div class="product-price">{{ getPriceDisplay() }}</div>
+  </div>
+</div> 
