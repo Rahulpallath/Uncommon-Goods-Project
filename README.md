@@ -42,3 +42,14 @@ Basic Angular app with components for product grid and cards. Uses a service to 
 - **TypeScript** - Type safety
 - **CSS Grid** - Layout system
 - **HTTP Client** - Data fetching
+
+  ## Screenshots
+
+### Main Product Grid
+![Main Product Grid](https://i.imgur.com/WrUWyww.jpeg)
+
+### Product Card Detail
+![Product Card Detail](https://i.imgur.com/3IUBdOe.jpeg)
+
+### Hover Effect
+![Hover Effect](https://i.imgur.com/cqlwMS2.jpeg)
